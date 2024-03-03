@@ -34,6 +34,9 @@ def preprocess_image(img, target_shape):
     return img
 
 st.title("TechShoor MediScan")
+st.title("Fracture Detection")
+st.write("Welcome to the Fracture Detection App!")
+st.write("Unlocking Medical Imaging Breakthroughs")
 
 # Allow user to select model
 model_names_mapping = {
